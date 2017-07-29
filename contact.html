@@ -12,6 +12,8 @@
     <!-- Bootstrap CSS 3.3.7 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
+    <!-- FontAwesome 4.7.0 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -19,12 +21,89 @@
 
 <body>
 
+    <!-- navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand -->
+            <div class="navbar-brand">
+                <h1 style="color:white">Alex Pugh</h1>
+            </div>
 
-    <!-- Important jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Bootstrap Js -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
+            <!-- Links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Connect</a></li>
+            </ul>
+
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- /.navbar navbar-default -->
+
+    <div class="container-fluid">
+        <div id="contact">
+            <div class="col-md-8 col-sm-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h1>Contact</h1>
+                    </div>
+                    <div class="panel-body main">
+                        <div class="input-group">
+                            <span><h4>Name</h4></span>
+                            <input type="text" class="form-control" placeholder="John Smith" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group">
+                            <span><h4>Email</h4></span>
+                            <input type="text" class="form-control" placeholder="example@gmail.com" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group">
+                            <span><h4>Message</h4></span>
+                            <textarea type="text" class="form-control" aria-describedby="basic-addon1"></textarea>
+                        </div>
+
+                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                Submit
+                        </button>
+                    </div>
+                </div>
+            </div>
+                <!-- /.col-md-8 -->
+            </div>
+            <!-- /#contact -->
+
+            <div id="connect">
+                <div class="col-md-4 col-sm-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" style="text-align:center">
+                            <h2>Connect</h2>
+                        </div>
+                        <div class="panel-body connect">
+                            <ul class="nav navbar-nav">
+                                <li><a href="https://github.com/ItsOkayItsOfficial" target="_blank" alt="GitHub"><i class="fa fa-github-square fa-4x" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/alexander-pugh/" target="_blank" alt="LinkedIn"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a></li>
+                                <li><a href="https://twitter.com/okayitsofficial" target="_blank" alt="Twitter"><i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /#connect -->
+        </div>
+        <!-- /.container-flud -->
+
+        <!-- Footer -->
+        <footer>
+            <a class="small"> © Copyright 2017 Alexander Pugh</a>
+        </footer>
+        <!-- /footer -->
+
+
+        <!-- Important jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Bootstrap Js -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
